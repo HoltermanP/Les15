@@ -1,0 +1,75 @@
+ul a{
+    color: red;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid blue;
+    border-right: 1px solid blue;
+    background-color: aqua;
+}
+li:hover{
+    background-color: aquamarine;
+    border-style: none;
+}
+header{
+    background-color: blue;
+    height: 70px;
+    width:auto;
+    padding: 5px;
+}
+footer{
+    color: red;
+    height: 20px;
+    text-align: right;
+    padding: 5px;
+    background-color: aqua;
+}
+body{
+    background-color: beige;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+table{
+    background-color: bisque;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th{
+    border: 1px solid black;
+}
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 400px;
+    box-sizing: border-box;
+}
+textarea{
+    height: 150px;
+    padding: 5px 5px;
+}
+button:active{
+    background-color: aquamarine;
+}
+p{
+    background-color: bisque;
+}
+
+form{
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
